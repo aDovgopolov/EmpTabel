@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/privat</item>
+        <item name="colorPrimaryDark">@color/privat</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/privat</item>
+        <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+        <!--<item name="android:itemTextAppearance">@style/MyActionBar.MenuTextStyle</item>-->
+        <!--<item name="android:itemBackground">@color/colorWhite</item>-->
+
+        <!--<item name="android:textColor">@color/colorred</item>-->
+    </style>
+
+    <style name="MyActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/privat</item>
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorTRUEBLACK</item>
+    </style>
+
+</resources>
